@@ -1,0 +1,49 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/bin/npm', 'rebuild', 'node-sass' ]
+2 info using npm@3.10.5
+3 info using node@v0.10.37
+4 verbose node symlink /usr/bin/node
+5 info readInstalled object
+6 verbose rebuild path, id [ '/home/vagrant/Code/akikstore/node_modules/laravel-elixir/node_modules/node-sass',
+6 verbose rebuild   'node-sass@3.8.0' ]
+7 silly rebuild set [ '/home/vagrant/Code/akikstore/node_modules/laravel-elixir/node_modules/node-sass' ]
+8 info build /home/vagrant/Code/akikstore/node_modules/laravel-elixir/node_modules/node-sass
+9 info lifecycle node-sass@3.8.0~preinstall: node-sass@3.8.0
+10 silly lifecycle node-sass@3.8.0~preinstall: no script for preinstall, continuing
+11 info linkStuff node-sass@3.8.0
+12 silly linkStuff node-sass@3.8.0 has /home/vagrant/Code/akikstore/node_modules/laravel-elixir/node_modules as its parent node_modules
+13 verbose linkBins node-sass@3.8.0
+14 verbose link bins [ { 'node-sass': 'bin/node-sass' },
+14 verbose link bins   '/home/vagrant/Code/akikstore/node_modules/laravel-elixir/node_modules/.bin',
+14 verbose link bins   false ]
+15 verbose linkMans node-sass@3.8.0
+16 verbose rebuildBundles node-sass@3.8.0
+17 verbose rebuildBundles [ 'glob', 'lodash._baseclone', 'lodash.clonedeep' ]
+18 verbose rebuild bundle /home/vagrant/Code/akikstore/node_modules/laravel-elixir/node_modules/node-sass/node_modules/lodash._baseclone
+19 info build /home/vagrant/Code/akikstore/node_modules/laravel-elixir/node_modules/node-sass/node_modules/lodash._baseclone
+20 silly gentlyRm /home/vagrant/Code/akikstore/node_modules/laravel-elixir/node_modules/.bin/node-sass is being purged
+21 verbose gentlyRm don't care about contents; nuking /home/vagrant/Code/akikstore/node_modules/laravel-elixir/node_modules/.bin/node-sass
+22 info lifecycle lodash._baseclone@4.5.7~preinstall: lodash._baseclone@4.5.7
+23 silly lifecycle lodash._baseclone@4.5.7~preinstall: no script for preinstall, continuing
+24 info linkStuff lodash._baseclone@4.5.7
+25 silly linkStuff lodash._baseclone@4.5.7 has /home/vagrant/Code/akikstore/node_modules/laravel-elixir/node_modules/node-sass/node_modules as its parent node_modules
+26 verbose linkBins lodash._baseclone@4.5.7
+27 verbose linkMans lodash._baseclone@4.5.7
+28 verbose rebuildBundles lodash._baseclone@4.5.7
+29 info lifecycle lodash._baseclone@4.5.7~install: lodash._baseclone@4.5.7
+30 silly lifecycle lodash._baseclone@4.5.7~install: no script for install, continuing
+31 info lifecycle lodash._baseclone@4.5.7~postinstall: lodash._baseclone@4.5.7
+32 silly lifecycle lodash._baseclone@4.5.7~postinstall: no script for postinstall, continuing
+33 verbose stack Error: UNKNOWN, symlink '../node-sass/bin/node-sass'
+34 verbose cwd /home/vagrant/Code/akikstore
+35 error Linux 3.13.0-24-generic
+36 error argv "node" "/usr/bin/npm" "rebuild" "node-sass"
+37 error node v0.10.37
+38 error npm  v3.10.5
+39 error path ../node-sass/bin/node-sass
+40 error code UNKNOWN
+41 error errno -1
+42 error UNKNOWN, symlink '../node-sass/bin/node-sass'
+43 error If you need help, you may report this error at:
+43 error     <https://github.com/npm/npm/issues>
+44 verbose exit [ -1, true ]
